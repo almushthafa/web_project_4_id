@@ -5,14 +5,14 @@
     margin-right: 28px;
   }
   
-  @media screen and (max-width: 765px) {
+@media screen and (max-width: 425px) {
     .profile__avatar {
       margin: auto;
     }
-  }
-  
-  @media screen and (max-width: 425px) {
+}
+
+@media screen and (max-width: 765px) {
     .profile__avatar {
       margin: auto;
     }
-  }
+}

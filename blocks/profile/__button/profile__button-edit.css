@@ -10,17 +10,17 @@
     background-size: 10px;
   }
   
-  .profile__button-edit:hover {
+.profile__button-edit:hover {
     opacity: .8;
     cursor: pointer;
   }
     
-  @media screen and (max-width: 425px) {
-  .profile__button-edit {
-   height: 18px;
+@media screen and (max-width: 425px) {
+    .profile__button-edit {
+      height: 18px;
       width: 18px;
       margin-right: 0;
       background-size: 7px;
       margin-top: 3px;
-   }
+    }
   }

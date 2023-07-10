@@ -7,18 +7,18 @@
     flex-basis: 100%;  
   }
   
-  @media screen and (max-width: 765px) {
-    .profile__about {
-      text-align: center;
-      align-items: center;
-    }
-  }
-  
-  @media screen and (max-width: 425px) {
+@media screen and (max-width: 425px) {
     .profile__about {
       font-size: 14px;
       line-height: 17px;
       text-align: center;
       justify-content: center;
+    }
+  }
+
+@media screen and (max-width: 765px) {
+    .profile__about {
+      text-align: center;
+      align-items: center;
     }
   }

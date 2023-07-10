@@ -1,21 +1,21 @@
 .photo-grid {
-    padding-top: 46px;
-    padding-bottom: 0;
-    max-width: 880px;
-    margin: auto;
-  }
+  margin: auto;  
+  max-width: 880px;
+  padding-top: 46px;
+  padding-bottom: 0;
+}
   
-  @media screen and (max-width: 1024px) {
-    .photo-grid {
-      padding-right: 48px;
-      padding-left: 48px;
-    }
-  }
-  
-  @media screen and (max-width: 425px) {
-    .photo-grid {
+@media screen and (max-width: 425px) {
+  .photo-grid {
       padding-top: 36px;
       padding-right: 19px;
       padding-left: 19px;
-    }
   }
+}
+
+@media screen and (max-width: 1024px) {
+  .photo-grid {
+      padding-right: 48px;
+      padding-left: 48px;
+    }
+}
