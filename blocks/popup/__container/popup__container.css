@@ -1,21 +1,22 @@
 .popup__container{
     position: relative;
-    margin: 12% auto;
+    margin: auto;
+    /* margin: 12% auto; */
     max-width: 430px;
     max-height: 330px;
 }
 
-@media screen and (max-width: 440px) {
-    .popup__container {
-        margin: 47% auto;
-        max-width: 282px;
-    }  
-}
-
 @media screen and (max-width: 880px) {
     .popup__container {
-        margin: 17% auto;
+        /* margin: 17% auto; */
         max-width: 395px;
     }
+}
+
+@media screen and (max-width: 440px) {
+    .popup__container {
+        /* margin: 47% auto; */
+        max-width: 282px;
+    }  
 }
 
