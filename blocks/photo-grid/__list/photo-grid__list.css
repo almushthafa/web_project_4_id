@@ -1,0 +1,11 @@
+.photo-grid__list {
+    list-style: none;
+    width: 100%;
+    height: 361px;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.photo-grid__list:hover {
+    cursor: pointer;
+}
