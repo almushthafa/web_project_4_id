@@ -1,24 +1,14 @@
 .popup__form {
-  display: flex;  
-  position: relative;  
-  flex-direction: column;
-  background-color:  #FFFFFF;
-  box-shadow: 0 0 25px rgba(0, 0, 0, .15);
-  border-radius: 10px;
-  width: 430px;
-  height: 330px;
-  border: none;
-  margin: auto;
-}
-  
-@media screen and (max-width: 880px) {
-  .popup__form {
-    width: 395px;
-  }
+  margin: 0 auto;
+  width: 358px;
+  transform: translateY(-40.7px);
+  padding-top: 24.26px;
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 919px) {
   .popup__form {
-    width: 282px;
+    width: 200px;
+    padding-top: 16px;
+    transform: translateY(-30px);
   }
-}  
+}

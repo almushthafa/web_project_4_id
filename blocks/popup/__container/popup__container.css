@@ -1,22 +1,12 @@
-.popup__container{
-    position: relative;
-    margin: auto;
-    /* margin: 12% auto; */
-    max-width: 430px;
-    max-height: 330px;
+.popup__container {
+  width: 430px;
+  background: #fff;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
 }
 
-@media screen and (max-width: 880px) {
-    .popup__container {
-        /* margin: 17% auto; */
-        max-width: 395px;
-    }
+@media screen and (max-width: 919px) {
+  .popup__container {
+    width: 240px;
+  }
 }
-
-@media screen and (max-width: 440px) {
-    .popup__container {
-        /* margin: 47% auto; */
-        max-width: 282px;
-    }  
-}
-
